@@ -1,0 +1,23 @@
+<div class="masthead">
+  <h3 class="text-muted">The Avocado League</h3>
+
+  <nav class="navbar navbar-light bg-faded rounded mb-3">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-toggleable-md" id="navbarCollapse">
+      <ul class="nav navbar-nav text-md-center justify-content-md-between">
+        <li class="nav-item">
+           <%= link_to "Home", root_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "About Us", about_us_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Contact", contact_path, class: "nav-link" %>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
